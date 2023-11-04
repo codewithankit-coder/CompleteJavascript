@@ -1,0 +1,79 @@
+{
+	"folders": [
+		{
+			"path": "../../../../media/linux/D2641F6E641F5517/Reactjs"
+		},
+		{
+			"path": "../Advancejs/Asynchronous"
+		},
+		{
+			"path": "../websiteJs"
+		},
+		{
+			"path": "../DOMS"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../RevisionJs"
+		},
+		{
+			"path": "../HTMLAndCss"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "RevisionJs",
+		"better-comments.tags": [
+
+			{
+				"tag": "!",
+				"color": "#cde610",
+				"strikethrough": false,
+				"underline": false,
+				"backgroundColor": "transparent",
+				"bold": false,
+				// "italic": false
+			},
+			{
+				"tag": "?",
+				"color": "#ad451f",
+				"strikethrough": false,
+				"underline": false,
+				"backgroundColor": "transparent",
+				"bold": false,
+				// "italic": false
+			},
+			{
+				"tag": "//",
+				"color": "#6b5054",
+				"strikethrough": true,
+				"underline": false,
+				"backgroundColor": "transparent",
+				"bold": false,
+				// "italic": false
+			},
+			{
+				"tag": "todo",
+				"color": "#b43ffc",
+				"strikethrough": false,
+				"underline": false,
+				"backgroundColor": "transparent",
+				"bold": false,
+				// "italic": false
+			},
+			{
+				"tag": "*",
+				"color": "#4bb4b8",
+				"strikethrough": false,
+				"underline": false,
+				"backgroundColor": "transparent",
+				"bold": false,
+				// "italic": false
+			}
+		]
+	}
+}
