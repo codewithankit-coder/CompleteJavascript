@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new elements in Dom</title>
+</head>
+<body style="background: #212121;color: #ffff;">
+    <div class="parent">
+        <!-- This is all are dom -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+        <div class="day">Friday</div>
+    </div>
+</body>
+<script>
+    const parents=document.querySelector(".parent");
+    console.log(parents);
+    console.log(parents.children);
+    console.log(parents.children[2].innerHTML="Ankit kumar")
+
+
+
+    for (let i = 0; i < parents.children.length; i++) {
+const doms=parents.children[i].innerHTML;
+console.log(doms)
+    };
+
+
+    //for changing styling
+    parents.children[2].style.color="orange";
+    console.log(parents.firstElementChild);
+    console.log(parents.lastElementChild);
+
+//for moving child to parent
+const dayOne=document.querySelector('.day');
+console.log(dayOne);
+
+
+//parent pe jane ke liye
+console.log(dayOne.parentElement);//for the parent
+console.log(dayOne.nextElementSibling);
+console.log("Nodes:",parents.childNodes);
+
+</script>
+</html>
